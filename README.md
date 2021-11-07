@@ -13,3 +13,5 @@ Zaduzenja:
 -Nikola Stamenic:  --koordinacija modeliranje baze podataka
                    --koordinisati osmišljavanjem inicijalne strukture
                     repozitorijuma 
+                    
+--Slucaj upotrebe Otvaranje racuna odradjen je od koleginice Ivane Cvetkoski, ali zbog nemogucnosti odrade commit-a, commit je odradjen od strane kolege Nikola Stamenic

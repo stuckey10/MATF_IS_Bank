@@ -66,6 +66,51 @@
 \maketitle
 \newpage
 
+\section{Uvod}
+
+Rad predstavlja osnovni informacioni sistem banke. Nastao je kao projekat za kurs "Informacioni sistemi" na
+Matematičkom fakultetu u Beogradu.
+
+Rad predstavlja univerzalni informacionis sistem banke. Vodili smo se primerom poslovanja "Eurobanke", ali
+smo se potrudili da što više uopštimo sam informacioni sistem. Ideja je da se opiše način poslovanja banaka,
+kako one intereaguju sa klijentima i kako one funkcionisšu interno. Kako bismo pružili što relevantnije 
+informacije, konstantno smo bili u kontaktu sa bankarskim slušbenikom zaposlenim u Eurobanci, ali smo dodatno samostalno
+vršili istraživanja što se tiče usluga ostalih banaka.
+
+\subsection{Korišćeni alati}
+
+Radi vizuelnog objašnjenja slučajeva upotrebe korišćeni su sledeći dijagrami:
+
+\begin{enumerate}
+\item Dijagrami klasa
+\item BPMN dijagrami
+\item Dijagarmi toka podataka (DFD)
+\end{enumerate}
+
+Kao softevrska rešenja za izradu navedenih dijagrama korišceni su VisalParadigm CE i Modelio.
+
+\section{Analiza sistema}
+
+Bankarski sektor predstavlja značajan deo ekonomije pošto se sa nužnošću korišćenja bankraskih usluga susreću skoro svi.
+Analiziranjem sistema banaka ustanovili smo da većina njih trenutno nudi slične usluge. Kako bi bila ispred konkurencije,
+privukla nove i zadržala postojeće klijente, banka treba da obezbedi različite usluge u odnosu na konkurenciju.
+
+Tokom analiziranja poslovanja, ustanovili smo i da banke sto vise treba da se okrenu novim tehnologijama jer korisnici žele 
+da im je većina usluga dostupna preko telefona ili računara. U informacionom sistemu banke koji smo napravili, 
+obrađene su osnovne osobine sistema  bez kojih smatramo da jedna banka ne bi mogla da funkcioniše.
+
+\subsection{Glavni dijagram slučajeva upotrebe}
+
+Najvažnija karakteristika informacionog sistema banke je cuvanje i proveravanje podataka. Za svakog klijenta (fizičko ili
+pravno lice) potrebno je da ima sačuvano podatke iz lične karte kao i dodatne podatke o uslugama koje on koristi.
+Detljnijom analizom korišćenih usluga, kao i analiziranjem usluga drugih klijenata, banka može da predvidi i preporuči
+klijentu usluge za koje misli da će mu biti korisne, a od kojih banka istovremeno može da profitira. Ovaj slučaj
+predstavlja napredinij koncept i nije obrađen u ovom radu.
+
+Sve podatke je prvo potrebno proveriti i obraditi. Od vrste usluge zavisi za koliko vremena će se ovo izvršiti. 
+Nakon toga se podaci unose u sistem banke i klijent postaje aktivni član.
+
+
 \section{Slučajevi upotrebe}
 \input{UseCases/otvaranjeRacuna}
 \input{UseCases/transakcije}
